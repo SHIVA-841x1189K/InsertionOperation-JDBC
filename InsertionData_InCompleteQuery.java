@@ -71,7 +71,7 @@ public class InsertionData_InCompleteQuery {
 		while (res.next()) {
 			int sID = res.getInt("ID");
 			String sName = res.getString("Name");
-			int sAge = res.getInt("Age");                                           //ERORR
+			int sAge = res.getInt("Age");                                         
 			String sEmail = res.getString("EmailId");
 			int sCourseID = res.getInt("CourseId");
 			String sCollege = res.getString("college");
